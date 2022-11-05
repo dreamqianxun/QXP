@@ -184,7 +184,7 @@
       "author": "mzhj→@Alt_Option",
       "repo": "https://github.com/QGCliveDavis/Module",
       "script": "https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Tele_Cellular_Auto.js",
-      "icons": ["https://raw.githubusercontent.com/dreamqianxun/QXP/main/Asset/Telecom.png","https://raw.githubusercontent.com/dreamqianxun/QXP/main/Asset/Telecom.png"]
+      "icons": ["https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/Telecom.png","https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/Telecom.png"]
     }
   ]
 }
