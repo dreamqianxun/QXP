@@ -8,11 +8,7 @@
     {
       "id": "xmSports",
       "name": "小米运动",
-      "keys": [
-        "xmSportsToken",
-        "xmMinStep",
-        "xmMaxStep"
-      ],
+      "keys": ["xmSportsToken", "xmMinStep", "xmMaxStep"],
       "settings": [
         {
           "id": "xmSportsToken",
@@ -65,8 +61,9 @@
         "Tele_AutoCheck.bark_key",
         "Tele_AutoCheck.bark_add",
         "Tele_AutoCheck.packge_detail",
-        "Tele_AutoCheck.querybody"],
-      "settings": [  
+        "Tele_AutoCheck.querybody"
+      ],
+      "settings": [
         {
           "id": "Tele_AutoCheck.LoginName",
           "name": "电信营业厅登录账号",
@@ -76,7 +73,7 @@
           "autoGrow": true,
           "rows": 1,
           "desc": "输入电信手机号"
-        }, 
+        },
         {
           "id": "Tele_AutoCheck.LoginPw",
           "name": "电信营业厅登录密码",
@@ -86,7 +83,7 @@
           "autoGrow": true,
           "rows": 1,
           "desc": "输入电信登录密码"
-        }, 
+        },
         {
           "id": "Tele_AutoCheck.key_brond",
           "name": "流量卡名",
@@ -96,14 +93,14 @@
           "autoGrow": true,
           "rows": 1,
           "desc": ""
-        }, 
+        },
         {
           "id": "Tele_AutoCheck.notice_switch",
           "name": "是否禁用定时通知",
           "val": false,
           "type": "boolean",
           "desc": "开启后将在流量变化时通知流量信息"
-        },    
+        },
         {
           "id": "Tele_AutoCheck.timeinterval",
           "name": "定时通知时间间隔",
@@ -158,8 +155,8 @@
           "autoGrow": true,
           "rows": 1,
           "type": "textarea",
-		  "desc": "一定要用&隔开! 例如:level=timeSensitive&isArchive=0表示即时通知且bark不保存"
-      	},
+          "desc": "一定要用&隔开! 例如:level=timeSensitive&isArchive=0表示即时通知且bark不保存"
+        },
         {
           "id": "Tele_AutoCheck.packge_detail",
           "name": "流量包数据",
@@ -168,9 +165,9 @@
           "autoGrow": true,
           "rows": 1,
           "type": "text",
-		 "desc": ""
-      	},
-      	{
+          "desc": ""
+        },
+        {
           "id": "Tele_AutoCheck.querybody",
           "name": "请求体数据",
           "val": "",
@@ -178,13 +175,27 @@
           "autoGrow": true,
           "rows": 1,
           "type": "textarea",
-		 "desc": ""
-      	}
-    ],
+          "desc": ""
+        }
+      ],
       "author": "mzhj→@Alt_Option",
       "repo": "https://github.com/QGCliveDavis/Module",
       "script": "https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Tele_Cellular_Auto.js",
-      "icons": ["https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/Telecom.png","https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/Telecom.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/Telecom.png",
+        "https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/Telecom.png"
+      ]
+    },
+    {
+      "id": "bili_simple",
+      "name": "B站查询",
+      "keys": [
+        {
+          "key": "bili_cookie",
+          "name": "B站Cookie",
+          "type": "text"
+        }
+      ]
     }
   ]
 }
