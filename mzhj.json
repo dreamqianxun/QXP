@@ -187,13 +187,23 @@
       ]
     },
     {
-      "id": "bili_simple",
-      "name": "B站查询",
-      "keys": [
+      "id": "yuncheck",
+      "name": "云签到",
+      "keys": ["ab_yuncheck_cookie"],
+      "author": "ab",
+      "url": "https://www.cordc.cc/auth/login",
+      "script": "yuncheck.js",
+      "icons": [
+        "https://github.com/dreamqianxun/QXP/blob/main/picture/headimage.png",
+        "https://github.com/dreamqianxun/QXP/blob/main/picture/headimage.png"
+      ],
+      "tasks": [{ "cron": "3 0 * * *", "script": "yuncheck.js" }],
+      "rewrites": [
         {
-          "key": "bili_cookie",
-          "name": "B站Cookie",
-          "type": "text"
+          "type": "request",
+          "pattern": "^https://www.cordc.cc/auth/login",
+          "script": "yuncheck.cookie.js",
+          "body": true
         }
       ]
     }
