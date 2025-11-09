@@ -194,8 +194,8 @@
       "url": "https://www.cordc.cc/auth/login",
       "script": "yuncheck.js",
       "icons": [
-        "https://github.com/dreamqianxun/QXP/blob/main/Telecom/Color/cloud.png",
-        "https://github.com/dreamqianxun/QXP/blob/main/Telecom/Color/cloud.png"
+        "https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/cloud.png",
+        "https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/cloud.png"
       ],
       "tasks": [{ "cron": "3 0 * * *", "script": "yuncheck.js" }],
       "rewrites": [
