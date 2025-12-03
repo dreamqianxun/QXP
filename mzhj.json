@@ -189,13 +189,29 @@
     {
       "id": "yuncheck",
       "name": "云签到",
-      "keys": ["ab_yuncheck_cookie"],
+      "keys": ["ab_yuncheck_cookie", "youxiaoqi"],
+      "settings": [
+        {
+          "id": "ab_yuncheck_cookie",
+          "name": "cookie:",
+          "val": "",
+          "type": "text",
+          "desc": "登录时获取的token"
+        },
+        {
+          "id": "youxiaoqi",
+          "name": "有效期:",
+          "val": "19000",
+          "type": "text",
+          "desc": "有效期"
+        }
+      ],
       "author": "ab",
       "url": "https://www.cordc.cc/auth/login",
       "script": "yuncheck.js",
       "icons": [
-        "https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/cloud.png",
-        "https://raw.githubusercontent.com/dreamqianxun/QXP/main/Telecom/Color/cloud.png"
+        "https://github.com/dreamqianxun/QXP/blob/main/picture/headimage.png",
+        "https://github.com/dreamqianxun/QXP/blob/main/picture/headimage.png"
       ],
       "tasks": [{ "cron": "3 0 * * *", "script": "yuncheck.js" }],
       "rewrites": [
