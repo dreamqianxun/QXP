@@ -236,7 +236,7 @@
 			]
 		},
 		{
-			"id": "Duanju.paihang",
+			"id": "mzhj.paihang",
 			"name": "AI短剧排行",
 			"descs_html":"用于抓取排行。"
 
@@ -245,12 +245,12 @@
 				"https://github.com/dreamqianxun/QXP/blob/main/picture/headimage.png"
 			],
 			"keys": [
-				"@Duanju.paihang.Settings",
-				"@Duanju.paihang.Caches"
+				"@mzhj.paihang.Settings",
+				"@mzhj.paihang.Caches"
 			],
 			"settings": [
 				{
-					"id": "@Duanju.paihang.Settings.token",
+					"id": "@mzhj.paihang.Settings.token",
 					"name": "短剧 paihang token（完整字符串）",
 					"type": "text",
 					"val": "",
