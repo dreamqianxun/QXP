@@ -241,8 +241,8 @@
 			"descs_html":"用于抓取排行。",
 
 			"icons": [
-				"https://raw.githubusercontent.com/dreamqianxun/QXP/blob/main/picture/paihang.png",
-				"https://raw.githubusercontent.com/dreamqianxun/QXP/blob/main/picture/paihang.png"
+				"https://raw.githubusercontent.com/dreamqianxun/QXP/main/picture/paihang.png",
+				"https://raw.githubusercontent.com/dreamqianxun/QXP/main/picture/paihang.png"
 			],
 			"keys": [
 				"@mzhj.paihang.Settings",
