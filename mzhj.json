@@ -238,7 +238,7 @@
 		{
 			"id": "mzhj.paihang",
 			"name": "AI短剧排行",
-			"descs_html":"用于抓取排行。"
+			"descs_html":"用于抓取排行。",
 
 			"icons": [
 				"https://github.com/dreamqianxun/QXP/blob/main/picture/headimage.png",
