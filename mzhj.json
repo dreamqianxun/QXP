@@ -266,7 +266,7 @@
 	"icons": [],
 	"keys": [
 		"@mzhj.shuika.Settings.Authorization",
-		"@mzhj.shuika.Settings.Refere"
+		"@mzhj.shuika.Settings.refreshToken"
 	],
 	"settings": [
 		{
