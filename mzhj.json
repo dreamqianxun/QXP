@@ -258,6 +258,42 @@
 					"desc": "脚本会自动写入完整 token 字符串。如需重置，可先清空此字段，再重新触发抓取流程。"
 				}
 			]
+		},
+		{
+	"id": "mzhj.shuika",
+	"name": "水卡",
+	"descs_html": "查看水卡余额和使用水卡",
+	"icons": [],
+	"keys": [
+		"@mzhj.shuika.Settings"
+	],
+	"settings": [
+		{
+			"id": "@mzhj.shuika.Settings.Authorization",
+			"name": "水卡设置",
+			"val": "",
+			"type": "textarea",
+			"placeholder": "建议通过脚本自动抓取，无需手动填写",
+			"desc": "脚本会自动写入完整 token 字符串。如需重置，可先清空此字段，再重新触发抓取流程。"
+		},
+		{
+			"id": "@mzhj.shuika.Settings.refreshToken",
+			"name": "",
+			"val": "",
+			"type": "text",
+			"placeholder": "建议通过脚本自动抓取，无需手动填写",
+			"desc": "脚本会自动写入完整 token 字符串。如需重置，可先清空此字段，再重新触发抓取流程。"
+		},
+		{
+			"id": "",
+			"name": "",
+			"val": "",
+			"type": "text",
+			"placeholder": "建议通过脚本自动抓取，无需手动填写",
+			"desc": "脚本会自动写入完整 token 字符串。如需重置，可先清空此字段，再重新触发抓取流程。"
 		}
+	],
+	"author": "ab"
+}
 	]
 }
