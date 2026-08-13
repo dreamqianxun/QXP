@@ -265,7 +265,8 @@
 	"descs_html": "查看水卡余额和使用水卡",
 	"icons": [],
 	"keys": [
-		"@mzhj.shuika.Settings"
+		"@mzhj.shuika.Settings.Authorization",
+		"@mzhj.shuika.Settings.Refere"
 	],
 	"settings": [
 		{
@@ -277,7 +278,7 @@
 			"desc": "脚本会自动写入完整 token 字符串。如需重置，可先清空此字段，再重新触发抓取流程。"
 		},
 		{
-			"id": "@mzhj.shuika.Settings.refreshToken",
+			"id": "@mzhj.shuika.Settings.Refere",
 			"name": "",
 			"val": "",
 			"type": "textarea",
