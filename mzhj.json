@@ -217,8 +217,8 @@
 			"url": "https://www.cordc.cc/auth/login",
 			"script": "yuncheck.js",
 			"icons": [
-				"https://raw.githubusercontent.com/dreamqianxun/QXP/main/picture/签到.png",
 				"https://raw.githubusercontent.com/dreamqianxun/QXP/main/picture/签到.png"
+
 			],
 			"tasks": [
 				{
@@ -241,8 +241,8 @@
 			"descs_html":"用于抓取排行。",
 
 			"icons": [
-				"https://raw.githubusercontent.com/dreamqianxun/QXP/main/picture/paihang.png",
 				"https://raw.githubusercontent.com/dreamqianxun/QXP/main/picture/paihang.png"
+	
 			],
 			"keys": [
 				"@mzhj.paihang.Settings",
